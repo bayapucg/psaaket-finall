@@ -4276,10 +4276,25 @@ p.form-message.error {
   color: #383634;
   font-weight: 700;
 }
+.btn-course{
+	position:absolute;top:25%;z-index:100;right:50px;width:300px;
+}
+.navbar-collapse{
+	background:#fff;
+	z-index:200;
+}
 @media screen and (max-width: 768px) {
   .section-heading h2 {
     font-size: 30px;
   }
+  .slider-cont {
+    position: relative;
+    z-index: 5;
+    top: 50%;
+}
+.btn-course{
+	position:absolute;top:25%;z-index:100;right:10px;width:300px;
+}
 }
 @media screen and (max-width: 640px) {
   .section-heading h2 {

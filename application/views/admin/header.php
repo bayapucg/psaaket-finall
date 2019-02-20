@@ -76,7 +76,7 @@
         <div class="navigation">
             <div class="container mx-auto">
                 <div class="row">
-                    <div class="col-lg-11 col-md-10 col-sm-9 col-9">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <nav class="navbar navbar-expand-lg">
 							<a class="navbar-brand" href="<?php echo base_url(''); ?>">
 							  <img src="<?php echo base_url();?>assets/vendor/img/logo.png" alt="PSAAKET" class="img-responsive" width="150px">
@@ -123,18 +123,12 @@
                                     <li class="nav-item">
                                         <a href="<?php echo base_url('contact'); ?>">Contact</a>
                                     </li>
+									 <li><a href="#" data-toggle="modal" data-target=""><i class="fa fa-user"> </i> Login</a></li>
                                 </ul>
                             </div>
                         </nav> <!-- nav -->
                     </div>
-                    <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-                        <div class="right-icon text-right">
-                            <ul>
-                                <li><a href="#" data-toggle="modal" data-target=""><i class="fa fa-user"> </i> Login</a></li>
-								<!--<li><a href="#" data-toggle="modal" data-target="#modal1"><i class="fa fa-user"> </i> Login</a></li>-->
-                            </ul>
-                        </div> <!-- right icon -->
-                    </div>
+                  
                 </div> <!-- row -->
             </div> <!-- container -->
         </div>

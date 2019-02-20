@@ -51,7 +51,7 @@
                             </ul>
                         </div> <!-- footer link -->
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
                         <div class="footer-link support mt-40">
                             <div class="footer-title pb-25">
                                 <h6>Support</h6>
@@ -64,7 +64,7 @@
                             </ul>
                         </div> <!-- support -->
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-xs-6">
                         <div class="footer-address mt-40">
                             <div class="footer-title pb-25">
                                 <h6>Contact Us</h6>

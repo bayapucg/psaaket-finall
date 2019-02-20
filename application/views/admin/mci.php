@@ -37,8 +37,8 @@
 			   <p class="text-center">We believe in offering the finest to our students by imparting the knowledge that will help them to come through PG level test and secure the best suited seat to them.</p>
 		    </div>
 			<div class="col-md-4">
-			  <button class="btn btn-warning btn-sm"><i class="fa fa-download" aria-hidden="true"></i> &nbsp; Download Course Pdf</button> 
-			  <a href="course-enroll.php" class="btn btn-primary btn-sm"><i class="fa fa-user" aria-hidden="true"></i> &nbsp; Enroll Now</a>
+			  <a href="<?php echo base_url();?>assets/vendor/pdf/psaaket-mci-brochure.pdf" class="btn btn-warning btn-sm" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> &nbsp; Download Course Pdf</a> 
+			  <a href="<?php echo base_url('contact'); ?>" class="btn btn-primary btn-sm"><i class="fa fa-user" aria-hidden="true"></i> &nbsp; Enroll Now</a>
 			
 		    </div>
 		</div>

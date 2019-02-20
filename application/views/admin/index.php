@@ -13,10 +13,6 @@
 							</br>
 							<span>Capture | Nurture | Motivate | Progress</span>
 							</p>
-							
-                       
-                        
-                          
                         </div>
                     </div>
                 </div> <!-- row -->
@@ -44,7 +40,7 @@
         
 		
     </section>
-    <div class="banner-cource" style="position:absolute;top:25%;z-index:5000;right:50px;width:300px;">
+    <div class="banner-cource btn-course" style="">
 			<div class="mt-20">
 				<a href="<?php echo base_url('mci');?>">
 					<div class=" " style="background:#ddd;padding:5px 10px;border-radius:50px;width:250px">
