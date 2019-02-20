@@ -57,7 +57,7 @@
            <li class="tab-active"><a href="#course" data-toggle="tab"> Our course</a></li>
 		   <!--<li class=""><a href="#home-seminars" data-toggle="tab">Seminars / Workshops</a></li>-->
 
-            <li><a href="#benifits" data-toggle="tab"> Benifits </a></li>
+            <li><a href="#benifits" data-toggle="tab"> Benefits </a></li>
           <!-- <li> <a href="#instructors-tab" data-toggle="tab"> Instructor panel </a></li>-->
             <li><a href="#enquiry" data-toggle="tab">Enquiry </a></li>
           </ul>

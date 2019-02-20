@@ -26,23 +26,29 @@
                                 <h6>Sitemap</h6>
                             </div>
                             <ul>
-                                <li><a href="<?php echo base_url(''); ?>"><i class="fa fa-angle-right"></i>Home</a></li>
-                                <li><a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>About us</a></li>
+                                <!--<li><a href="<?php echo base_url(''); ?>"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>About us</a></li>-->
 								<li><a href="<?php echo base_url('training'); ?>"><i class="fa fa-angle-right"></i>Training </a></li>
                              <li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#why-section"><i class="fa fa-angle-right"></i>Why Us?</a>
                                     </li>
-                                 
-                                   
-                            </ul>
-                            <ul>
-							   <li class="nav-item">
+                                 <li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#why-help-to-section"><i class="fa fa-angle-right"></i>We Help to!</a>
                                     </li>
 							 <li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>Upcoming work</a>
                                        
                                     </li> 
+                                   
+                            </ul>
+                            <ul>
+							  <!--<li class="nav-item">
+                                        <a href="<?php echo base_url(''); ?>#why-help-to-section"><i class="fa fa-angle-right"></i>We Help to!</a>
+                                    </li>
+							 <li class="nav-item">
+                                        <a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>Upcoming work</a>
+                                       
+                                    </li> -->
 									<li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#instructors-pannel-section"><i class="fa fa-angle-right"></i>Instructor panel</a>
                                     </li>
@@ -75,7 +81,7 @@
                                         <i class="fa fa-home"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>some address</p>
+                                        <p>Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad,Telangana - 500072</p>
                                     </div>
                                 </li>
                                 <li>
@@ -83,7 +89,7 @@
                                         <i class="fa fa-phone"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>+3 123 456 789</p>
+                                        <p>040-48541273</p>
                                     </div>
                                 </li>
                                 <li>
@@ -91,7 +97,7 @@
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>example@gmail.com</p>
+                                        <p>info@psaaket.com</p>
                                     </div>
                                 </li>
                             </ul>
