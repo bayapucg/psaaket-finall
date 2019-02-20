@@ -211,11 +211,11 @@
                                 </ul>
                                 <div class="price-button pt-10">
                                    <div class="text-center">
-                                    <a href="contact.php" class="btn btn-warning btn-block">Contact us for Price</a>
+                                    <a href="<?php echo base_url('contact'); ?>" class="btn btn-warning btn-block text-white">Contact us for Price</a>
 									</div>
 									
 									<div class="text-center mt-20">
-									<a href="course-enroll.php" class="btn btn-warning btn-block">Enroll Now</a>
+									<a href="<?php echo base_url('contact'); ?>" class="btn btn-warning btn-block text-white">Enroll Now</a>
 									</div>
                                 </div>
                             </div> <!-- course features -->
@@ -561,7 +561,7 @@
                           <h4>CNMP METHOD</h4>
 							<hr>
                             <p>We bring out the true potentialities of students by our CNMP methods- Capture, Nurture, Motivate & Progress which improves them</p>
-							<h5>Capture | Nurture | Motivate | Progress</h5>
+						
                        </div>
                    </div>
                </div>
