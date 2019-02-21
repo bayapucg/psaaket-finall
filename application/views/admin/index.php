@@ -43,15 +43,20 @@
     <div class="banner-cource btn-course" style="">
 			<div class="mt-20">
 				<a href="<?php echo base_url('mci');?>">
-					<div class=" " style="background:#ddd;padding:5px 10px;border-radius:50px;width:250px">
-					<span><img style="width:50px;height:auto;" src="<?php echo base_url();?>assets/vendor/img/mci-icon.png"></span> &nbsp; <strong>MCI </strong>
+					<div class=" btn-course-div text-center ">
+					<div class="">
+						<span><img style="width:50px;height:auto;" src="<?php echo base_url();?>assets/vendor/img/mci-icon.png"></span> <br> <h4 class="py-2"> Medical Coaching Institute
+						</h4>
+					</div>
 				</div>
 				</a>
 			</div>	
 				<div class="mt-20">			
 				<a href="#">
-					<div class=" " style="background:#ddd;padding:5px 10px;border-radius:50px;width:250px">
-					<span><img style="width:50px;height:auto;" src="<?php echo base_url();?>assets/vendor/img/eng.png"></span> &nbsp; <strong>Engineering</strong>
+					<div class=" btn-course-div">
+					<div class="">
+						<span><img style="width:50px;height:auto;" src="<?php echo base_url();?>assets/vendor/img/eng.png"></span> <br> <h4>Engineering</h4>
+					</div>
 				</div>
 				</a>
 				</div>
