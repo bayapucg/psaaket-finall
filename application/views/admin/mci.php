@@ -562,7 +562,7 @@
                        <div class="text-center">
                           <h4>CNMP METHOD</h4>
 							<hr>
-                            <p>We bring out the true potentialities of students by our CNMP methods- Capture, Nurture, Motivate & Progress which improves them</p>
+                            <p>We bring out the true potentialities of students by our CNMP methods- Capture, Nurture, Motivate & Progress which improves our students</p>
 						
                        </div>
                    </div>
