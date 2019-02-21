@@ -26,29 +26,23 @@
                                 <h6>Sitemap</h6>
                             </div>
                             <ul>
-                                <!--<li><a href="<?php echo base_url(''); ?>"><i class="fa fa-angle-right"></i>Home</a></li>
-                                <li><a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>About us</a></li>-->
+                                <li><a href="<?php echo base_url(''); ?>"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>About us</a></li>
 								<li><a href="<?php echo base_url('training'); ?>"><i class="fa fa-angle-right"></i>Training </a></li>
                              <li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#why-section"><i class="fa fa-angle-right"></i>Why Us?</a>
                                     </li>
-                                 <li class="nav-item">
+                                 
+                                   
+                            </ul>
+                            <ul>
+							   <li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#why-help-to-section"><i class="fa fa-angle-right"></i>We Help to!</a>
                                     </li>
 							 <li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>Upcoming work</a>
                                        
                                     </li> 
-                                   
-                            </ul>
-                            <ul>
-							  <!--<li class="nav-item">
-                                        <a href="<?php echo base_url(''); ?>#why-help-to-section"><i class="fa fa-angle-right"></i>We Help to!</a>
-                                    </li>
-							 <li class="nav-item">
-                                        <a href="<?php echo base_url(''); ?>#about-part"><i class="fa fa-angle-right"></i>Upcoming work</a>
-                                       
-                                    </li> -->
 									<li class="nav-item">
                                         <a href="<?php echo base_url(''); ?>#instructors-pannel-section"><i class="fa fa-angle-right"></i>Instructor panel</a>
                                     </li>
