@@ -51,7 +51,7 @@
 				</div>
 				</a>
 			</div>	
-				<div class="mt-20">			
+				<div class="mobile-cat mt-20">			
 				<a href="#">
 					<div class=" btn-course-div">
 					<div class="">
