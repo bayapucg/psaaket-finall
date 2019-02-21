@@ -123,7 +123,7 @@
                                     <li class="nav-item">
                                         <a href="<?php echo base_url('contact'); ?>">Contact</a>
                                     </li>
-									 <li><a href="#" data-toggle="modal" data-target=""><i class="fa fa-user"> </i> Login</a></li>
+									 <li><a href="<?php echo base_url('admin');?>" ><i class="fa fa-user"> </i> Login</a></li>
                                 </ul>
                             </div>
                         </nav> <!-- nav -->

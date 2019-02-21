@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 	
 	
 	public function index(){
-		if(!$this->session->userdata('saket_details'))
+		if($this->session->userdata('saket_details'))
 		{
 				
 				$this->load->view('admin/header');
@@ -28,7 +28,7 @@ class Home extends CI_Controller {
 				$this->load->view('admin/footer');
 		        
 	     }else{
-		redirect('home');
+		redirect('admin');
 		
 	}
 }	
