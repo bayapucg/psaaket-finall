@@ -75,7 +75,7 @@
                                         <i class="fa fa-home"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>some address</p>
+                                        <p>Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad,Telangana - 500072</p>
                                     </div>
                                 </li>
                                 <li>
@@ -83,7 +83,7 @@
                                         <i class="fa fa-phone"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>+3 123 456 789</p>
+                                        <p>040-48541273</p>
                                     </div>
                                 </li>
                                 <li>
@@ -91,7 +91,7 @@
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>example@gmail.com</p>
+                                        <p>info@psaaket.com</p>
                                     </div>
                                 </li>
                             </ul>
