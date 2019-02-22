@@ -25,12 +25,18 @@
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="<?php if(isset($tab) && $tab==''){ echo "active";} ?>"><a href="#tab_1" data-toggle="tab" aria-expanded="false">Employee details</a></li>
+              <!--<li class="<?php if(isset($tab) && $tab==1){ echo "active";} ?>"><a href="#tab_2" data-toggle="tab" aria-expanded="false">Employee details</a></li>-->
               
             </ul>
             <div class="tab-content">
+			<div class="tab-pane <?php if(isset($tab) && $tab==''){ echo "active";} ?>" id="tab_1">
 			 <form id="defaultForm" method="post" class="" action="<?php echo base_url('employee/addpost');?>">
-			
-								
+			 <?php $csrf = array(
+										'name' => $this->security->get_csrf_token_name(),
+										'hash' => $this->security->get_csrf_hash()
+								); ?>
+								<input type="hidden" name="<?=$csrf['name'];?>" value="<?=$csrf['hash'];?>" />
+							      <input type="hidden" id="emp_id" name="emp_id" value="<?php echo isset($emp_id)?$emp_id:'' ?>">
 							
 							<div class="row">
                                     <div class="col-md-6">
@@ -72,19 +78,21 @@
                                 </div>
 							
 								
+								
+
+							
+								 </div>
+			
+              <!--<div class="tab-pane <?php if(isset($tab) && $tab==1){ echo "active";} ?>" id="tab_2">-->
+					  <?php $csrf = array(
+										'name' => $this->security->get_csrf_token_name(),
+										'hash' => $this->security->get_csrf_hash()
+								); ?>
+								<input type="hidden" name="<?=$csrf['name'];?>" value="<?=$csrf['hash'];?>" />
+							      <input type="hidden" id="emp_id" name="emp_id" value="<?php echo isset($emp_id)?$emp_id:'' ?>">
+					 
+					 
 					 <div class="row">
-					 <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Role</label>
-                                            <input type="text" class="form-control" name="role_name" placeholder="Enter Designation">
-                                        </div>
-                                    </div>
-									<div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Employee id</label>
-                                            <input type="text" class="form-control" name="employee_id" placeholder="Enter Designation">
-                                        </div>
-                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Designation</label>
@@ -96,8 +104,8 @@
                                             <label>Employment Type</label>
                                             <select class="form-control" name="employe_type">
                                                 <option value="" selected disabled>Select</option>
-                                                <option value="Full-time" >Full-time</option>
-                                                <option value="Part-time" >Part-time</option>
+                                                <option value="Full-time">Full-time</option>
+                                                <option value="Part-time">Part-time</option>
                                             </select>
                                         </div>
                                     </div>
@@ -113,20 +121,6 @@
                                             <input type="text" class="form-control" name="e_email_work" placeholder="Enter Work Email Id">
                                         </div>
                                     </div>
-									<div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Password</label>
-                                            <input type="text" class="form-control" name="e_password" placeholder="Enter Work Email Id">
-                                        </div>
-                                    </div>
-									<div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Confirm Password</label>
-                                            <input type="text" class="form-control" name="e_org_password" placeholder="Enter Work Email Id">
-                                        </div>
-                                    </div>
-									
-									
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Documents</label>
@@ -143,9 +137,13 @@
                                 </div>
 							
 					 
+					 
+					 
+					 
+								
 								  <button type="submit"  class="btn btn-primary " id="validateBtn" name="validateBtn" value="check">Submit</button> 
 								</form>
-             
+              </div>
               <!-- /.tab-pane -->
               
               </div>

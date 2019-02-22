@@ -26,7 +26,8 @@
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>SI.No</th>
+                                        
+                                        <th>Role</th>
                                         <th>Employee ID</th>
                                         <th>Work Email Id</th>
                                         <th>Name</th>
@@ -35,59 +36,31 @@
                                         <th>Designation</th>
                                         <th>Employment Type</th>
                                         <th>Salary</th>
-                                        <th>Date</th>
+                                        <th>Address</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+								<?php foreach($employee_list as $list){?>
                                     <tr>
-                                        <td>1</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
+                                       
+                                        <td><?php echo isset($list['role_name'])?$list['role_name']:''?></td>
+                                        <td><?php echo isset($list['employee_id'])?$list['employee_id']:''?></td>
+                                        <td><?php echo isset($list['email'])?$list['email']:''?></td>
+                                        <td><?php echo isset($list['f_name'])?$list['f_name']:''?></td>
+                                        <td><?php echo isset($list['e_email_work'])?$list['e_email_work']:''?></td>
+                                        <td><?php echo isset($list['mobile'])?$list['mobile']:''?></td>
+                                        <td><?php echo isset($list['designation'])?$list['designation']:''?></td>
+                                        <td><?php echo isset($list['employe_type'])?$list['employe_type']:''?></td>
+                                        <td><?php echo isset($list['salary_details'])?$list['salary_details']:''?></td>
+                                        <td><?php echo isset($list['permanent_address'])?$list['permanent_address']:''?></td>
                                         <td>
-                                            <a href="edit-employee.php" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
+                                            <a href="<?php echo base_url('employee/edit/'.base64_encode($list['e_id'])); ?>" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
                                             <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>
-                                            <a href="edit-employee.php" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
-                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>
-                                            <a href="edit-employee.php" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
-                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
-                                        </td>
-                                    </tr>
+								<?php }?>
+                                    
                                 </tbody>
                             </table>
                         </div>
