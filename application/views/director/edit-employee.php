@@ -1,5 +1,6 @@
 <header>
-
+ <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/director/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/director/css/bootstrapValidator.min.css">
 </header>
 <!-- Content Wrapper. Contains page content -->
@@ -75,10 +76,26 @@
 								
 					 <div class="row">
 					 <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Role</label>
-                                            <input type="text" class="form-control" name="role_name" value="<?php echo isset($edit_employee['role_name'])?$edit_employee['role_name']:'' ?>" placeholder="Enter Designation">
-                                        </div>
+					 <div class="form-group">
+									<label class=" control-label">Role</label>
+									<div class="">
+										<select id="hostel_type" name="role"  class="form-control" >
+										<option value="">Select</option>
+										<?php if(isset($role_list) && count($role_list)>0){ ?>
+											<?php foreach($role_list as $list){ ?>
+											
+													<?php if($edit_employee['role']==$list['role_id']){ ?>
+															<option selected value="<?php echo $list['role_id']; ?>"><?php echo $list['role']; ?></option>
+													<?php }else{ ?>
+															<option value="<?php echo $list['role_id']; ?>"><?php echo $list['role']; ?></option>
+													<?php } ?>
+											<?php } ?>
+										<?php } ?>
+										</select>
+									</div>
+								</div>
+					 
+                                        
                                     </div>
 									<div class="col-md-6">
                                         <div class="form-group">
@@ -151,7 +168,10 @@
     </section>
 
    </div>
-   
+   <script src="<?php echo base_url(); ?>assets/director/js/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="<?php echo base_url(); ?>assets/director/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/director/js/bootstrapValidator.min.js"></script>
 <script type="text/javascript">
    
  $(document).ready(function() {
@@ -174,6 +194,89 @@
 					}
 				}
             },
+			role:{
+			   validators: {
+					notEmpty: {
+						message: 'Role is required'
+					}
+				}
+            },
+			employe_type:{
+			   validators: {
+					notEmpty: {
+						message: 'Employee Type is required'
+					}
+				}
+            },
+			salary_details:{
+			   validators: {
+					notEmpty: {
+						message: 'Salary Details is required'
+					}
+				}
+            },
+			working_days:{
+			   validators: {
+					notEmpty: {
+						message: 'working Days is required'
+					}
+				}
+            },
+			employee_id:{
+			   validators: {
+					notEmpty: {
+						message: 'Employee id is required'
+					}
+				}
+            },
+			designation:{
+			   validators: {
+					notEmpty: {
+						message: 'Designation id is required'
+					}
+				}
+            },
+			
+					
+			email: {
+                       validators: {
+                            notEmpty: {
+                                message: 'Email is required'
+                            },
+                            regexp: {
+                            regexp: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+                            message: 'Please enter a valid email address. For example johndoe@domain.com.'
+                            }
+                        }
+                    },
+					e_password: {
+                validators: {
+					notEmpty: {
+						message: ' Password is required'
+					},
+					stringLength: {
+                        min: 6,
+                        message: 'Password  must be at least 6 characters'
+                    },
+					regexp: {
+					regexp:/^[ A-Za-z0-9_@.,/!;:}{@#&`~'"\\|=^?$%*)(_+-]*$/,
+					message: 'Password wont allow <>[]'
+					}
+				}
+            },
+		   e_org_password:{
+		            validators: {
+						 notEmpty: {
+						message: 'Confirm Password is required'
+					},
+					identical: {
+						field: 'e_password',
+						message: 'password and Confirm Password do not match'
+					}
+					}
+				},
+					
+					
 			e_email_work: {
                        validators: {
                             notEmpty: {
@@ -215,8 +318,15 @@
 					message:'Address wont allow <> [] = % '
 					}
 				}
+            },
+			document: {
+                validators: {
+					regexp: {
+					regexp: "(.*?)\.(docx|doc|pdf|xlsx|xls)$",
+					message: 'Uploaded file is not a valid. Only docx,doc,xlsx,pdf files are allowed'
+					}
+				}
             }
-			
 			
         }
     });
@@ -236,6 +346,4 @@
     });
   });
 </script>
-
-
 

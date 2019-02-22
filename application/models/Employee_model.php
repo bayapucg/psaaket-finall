@@ -32,7 +32,8 @@ class Employee_model extends CI_Model
 		return $insert_id = $this->db->insert_id();
 	}	
 	public function get_employee_lists(){
-	$this->db->select('*')->from('employees');
+	$this->db->select('employees.*,roles.role')->from('employees');
+$this->db->join('roles', 'roles.role_id = employees.role', 'left');
 	$this->db->where('employees.status!=',2);
     return $this->db->get()->result_array();
 	}		

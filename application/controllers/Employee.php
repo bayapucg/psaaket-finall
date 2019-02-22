@@ -87,7 +87,7 @@ public function addpost(){
 				'contact_address'=>isset($post['contact_address'])?$post['contact_address']:'',
 			    'permanent_address'=>isset($post['permanent_address'])?$post['permanent_address']:'',
 			    'designation'=>isset($post['designation'])?$post['designation']:'',
-			    'role_name'=>isset($post['role_name'])?$post['role_name']:'',
+			    'role'=>isset($post['role'])?$post['role']:'',
 			    'employee_id'=>isset($post['employee_id'])?$post['employee_id']:'',
 			    'salary_details'=>isset($post['salary_details'])?$post['salary_details']:'',
 			    'e_email_work'=>isset($post['e_email_work'])?$post['e_email_work']:'',
@@ -125,7 +125,7 @@ public function edit()
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['e_id']);
 				$data['edit_employee']=$this->Employee_model->edit_employee_details(base64_decode($this->uri->segment(3)));	
 						//	echo '<pre>';print_r($data);exit;	
-
+                     $data['role_list']= $this->Employee_model->get_role_list();
 				$this->load->view('director/header',$data);
 				$this->load->view('director/sidebar',$data);
 				$this->load->view('director/edit-employee',$data);
@@ -162,7 +162,7 @@ public function editpost(){
 				'contact_address'=>isset($post['contact_address'])?$post['contact_address']:'',
 			    'permanent_address'=>isset($post['permanent_address'])?$post['permanent_address']:'',
 			    'designation'=>isset($post['designation'])?$post['designation']:'',
-			    'role_name'=>isset($post['role_name'])?$post['role_name']:'',
+			    'role'=>isset($post['role'])?$post['role']:'',
 			    'employee_id'=>isset($post['employee_id'])?$post['employee_id']:'',
 			    'salary_details'=>isset($post['salary_details'])?$post['salary_details']:'',
 			    'e_email_work'=>isset($post['e_email_work'])?$post['e_email_work']:'',

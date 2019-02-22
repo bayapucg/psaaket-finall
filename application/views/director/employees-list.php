@@ -44,7 +44,7 @@
 								<?php foreach($employee_list as $list){?>
                                     <tr>
                                        
-                                        <td><?php echo isset($list['role_name'])?$list['role_name']:''?></td>
+                                        <td><?php echo isset($list['role'])?$list['role']:''?></td>
                                         <td><?php echo isset($list['employee_id'])?$list['employee_id']:''?></td>
                                         <td><?php echo isset($list['email'])?$list['email']:''?></td>
                                         <td><?php echo isset($list['f_name'])?$list['f_name']:''?></td>

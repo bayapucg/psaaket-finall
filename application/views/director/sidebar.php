@@ -21,7 +21,7 @@
             <li class="header">Admin</li>
 			 
 
-			 <?php if($userdetails['role_id']==1) { ?>
+			 <?php if($userdetails['role']==1) { ?>
 			 <li class="active"><a href="<?php echo base_url('dashboard');?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
 			  <li class="treeview">
                 <a href="#">
