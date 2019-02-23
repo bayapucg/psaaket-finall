@@ -29,7 +29,7 @@
               
             </ul>
             <div class="tab-content">
-			 <form id="defaultForm" method="post" class="" action="<?php echo base_url('employee/addpost');?>">
+			 <form id="defaultForm" method="post" class="" action="<?php echo base_url('employee/empoyeepost');?>">
 			
 								
 							
