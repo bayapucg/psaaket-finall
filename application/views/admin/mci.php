@@ -1,6 +1,6 @@
      <head>
      <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
-	<title>Best Web Designing Agency In Hyderabad | Prachatech Pvt. Ltd.</title>
+	<title>Medical Coaching Institute In Hyderabad </title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="web designing agency, web designing agency in hyderabad, " />
 </head>
