@@ -43,7 +43,18 @@
     <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/css/style.css">
     
     <!--====== Responsive css ======-->
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/css/responsive.css"> 
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114861070-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114861070-5');
+</script>
+
  
 </head>
 

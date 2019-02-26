@@ -1,8 +1,10 @@
      <head>
      <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
-	<title>Medical Coaching Institute In Hyderabad </title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="web designing agency, web designing agency in hyderabad, " />
+	<title>Medical Coaching Institute In Hyderabad | PG Medical Coaching Institute </title>
+	<meta name="description" content="PSAAKET is recognised as the best medical coaching institute in Hyderabad. We offer coaching for Medical PG exams, AIIMS PG,
+	NEET PG, JIPMER PG, PGIMER.  " />
+	<meta name="keywords" content="medical coaching institute in hyderabad, medical training institute in hyderabad, institute for medical coaching " /> 
+	
 </head>
     <section id="page-banner" class="pt-10 pb-10 bg_cover" data-overlay="8" style="background-image: url(<?php echo base_url();?>assets/vendor/img/page-banner-1.jpg)">
         <div class="container">
