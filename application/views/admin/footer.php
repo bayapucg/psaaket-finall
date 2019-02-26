@@ -178,93 +178,49 @@
 
     <!--====== LOGIN MODAL PART END ======-->
     
-    <!--====== REGISTER MODAL PART START ======-->
 
-    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2"
+    <div class="modal fade" id="bayapu" tabindex="-1" role="dialog" aria-labelledby="modalLabel2"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel2">Register</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body modal-bg">
-                    <form action="#" method="post">
-                        <div class="via-login">
-                            <a href="#" class="via-fb"><i class="fa fa-facebook-f"></i>Continue with facebook</a>
-                            <a href="#" class="via-google"><i class="fa fa-google"></i>Continue with google</a>
-                        </div>
-                        <div class="break"><span>or</span></div>
-                        <div class="form-group">
-                            <label>Username</label>
-                            <input type="text" class="form-control" placeholder="" name="name" id="">
-                        </div>
-                        <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" class="form-control" placeholder="" name="Email" id="">
-                        </div>
-                        <div class="form-group">
-                            <label>Phone Number</label>
-                            <input type="text" class="form-control" placeholder="" name="mobile" id="">
-                        </div>
-                        <div class="form-group">
-                            <label>Password</label>
-                            <input type="password" class="form-control" placeholder="" name="Password" id="">
-                        </div>
-                        <div class="form-group">
-                            <label for="password2">Confirm Password</label>
-                            <input type="password" class="form-control" placeholder="" name="Confirm Password" id="">
-                        </div>
-                        <div class="">
-                            <div class="">
-                                <input type="checkbox" id="brand2" value="">
-                                <label for="brand2" class="mb-3 text-dark">
-                                    <span></span>I Accept to the Terms & Conditions</label>
-                            </div>
-                        </div>
-                        <div class="">
-                            <button type="submit" class="sub-btn">Register</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+				<div class="modal-content">
+							
+									
+								
+								
+							  
+			<div class="modal-body modal-bg" style="text-align:center; background-image: url('<?php echo base_url();?>assets/vendor/img/pop-back.png');background-repeat: no-repeat;background-size: cover;">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+				<div class="row-fluid">
+					<div class="span10 offset1">
+						<div id="modalTab">
+						<div class="tab-content">
+							<div class="tab-pane active " id="about">
+								<img src="<?php echo base_url();?>assets/vendor/img/main-pop.png"  width="140" height="140" border="0" class="img-circle"></a>
+								<center>
+								<p class="text-left text-white"><strong>Want to crack your PG? </strong><br>
+								We tell you exactly how to do it. Attend our Seminar with demo class of our PSAAKET Medical Coaching Institute. Call us now and register the seat. Free seminar. </p>
+								<br>
+								</center>
+								<h4 class=" text-white">Contact now to register your seat </h4>
+								<h3 class=" text-white py-2">@ </h3>
+								<p class="text-center text-white"><span>9014175660  </span> | <span style="">admin@psaaket.com.</span> | <span >www.psaaket.com  </span>  </p>
+								<p class="text-center  pt-20"><a class="text-white" href="<?php echo base_url('seminars/registration');?>"><span style="border:1px solid #fff;padding:5px 10px">Register Now  </span></a> &nbsp;
+								<a class="text-white" href="<?php echo base_url('contact'); ?>"><span style="border:1px solid #fff;padding:5px 10px">Contact Us  </span></a>  </p>
+							</div>
+						</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+				</div>
         </div>
     </div>
 
-    <!--====== REGISTER MODAL PART START ======-->
     
-    <!--====== FORGOT PASSWORD MODAL PART START ======-->
 
-    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content modal-bg">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel3">Forgot Password?</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="#" method="post">
-                        <p>Don't worry. Resetting your password is easy, just tell us the email address you registered.</p>
-                        <br>
-                        <div class="form-group">
-                            <label>Enter your email address</label>
-                            <input type="email" class="form-control" placeholder="" name="Email" id="">
-                        </div>
-                        <div class="">
-                            <button type="submit" class="sub-btn">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!--====== FORGOT PASSWORD MODAL PART START ======-->
     
     <!--====== jquery js ======-->
 	<script src="<?php echo base_url();?>assets/vendor/js/modernizr-3.6.0.min.js"></script>
@@ -302,6 +258,11 @@
     <script src="<?php echo base_url();?>assets/vendor/js/main.js"></script>
     
     <!--====== js ======-->
+	 <script>
+ $(window).load(function(){        
+   $('#bayapu').modal('show');
+    }); 
+ </script>
 
 </body>
 

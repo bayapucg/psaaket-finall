@@ -41,6 +41,14 @@
 		
     </section>
     <div class="banner-cource btn-course" style="">
+			<div class="mt-20 text-center">
+				<a href="<?php echo base_url('seminars/registration');?>" class="btn btn-warning  text-white">
+					
+					 Seminar Registration
+						
+					
+				</a>
+			</div>
 			<div class="mt-20">
 				<a href="<?php echo base_url('mci');?>">
 					<div class=" btn-course-div text-center ">
@@ -177,7 +185,7 @@
                         </div> 
 						<hr style="margin-top:0px;"><!-- event title -->
                         <ul>
-							<a href="mci.php">
+							<a href="<?php echo base_url('mci');?>">
                             <li  style="position:relative">
                                 <div class="singel-event">
 								<div class="" style="position:absolute;background:#192f5d;border-radius:0px 200px 200px 0px;padding:5px 30px 5px 5px;color:#fff;top:-10px;border-left:4px solid #ff9800">
@@ -192,7 +200,7 @@
                             </li>
 							</a>
 							<hr style="padding:0px;margin:0px;">
-							<a  class="mt-20" href="mci.php">
+							<a  class="mt-20" href="<?php echo base_url('mci');?>">
                             <li class="blink" style="position:relative">
                                 <div class="singel-event">
 									<div class="" style="position:absolute;background:#192f5d;border-radius:0px 200px 200px 0px;padding:5px 30px 5px 5px;color:#fff;top:-10px;border-left:4px solid #ff9800">

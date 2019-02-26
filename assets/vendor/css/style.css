@@ -4058,7 +4058,7 @@ p.form-message.error {
 ======================================================*/
 
 .modal-header{
-    background-color: #ffc600;
+    /* background-color: #ffc600; */
     color: #07294d;
 }
 
@@ -4294,7 +4294,7 @@ p.form-message.error {
   .slider-cont {
     position: relative;
     z-index: 5;
-    top: 30%;
+    top: 45%;
 }
 .btn-course{
 	position:absolute;top:15%;z-index:100;right:10px;width:300px;

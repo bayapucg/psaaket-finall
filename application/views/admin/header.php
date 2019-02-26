@@ -152,5 +152,4 @@
             </form>
         </div> <!-- serach form -->
     </div>
-    
-    <!--====== SEARCH BOX PART ENDS ======-->
+
