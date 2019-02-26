@@ -58,6 +58,9 @@
 								  <tr>
 									<th>Seminar objectives</th>
 									<td>PG Coaching strategy, Presenting Psaaket MCI </td>
+								  </tr>								  <tr>
+									<th>Strength</th>
+									<td> 50-150 </td>
 								  </tr>
 								</tbody>
 							  </table>
