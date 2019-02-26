@@ -55,8 +55,8 @@
                                         <td><?php echo isset($list['salary_details'])?$list['salary_details']:''?></td>
                                         <td><?php echo isset($list['permanent_address'])?$list['permanent_address']:''?></td>
                                         <td>
-                                            <a href="<?php echo base_url('employee/edit/'.base64_encode($list['e_id'])); ?>" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
-                                            <a href="<?php echo base_url('employee/delete/'.base64_encode($list['e_id'])); ?>" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
+                                            <a href="<?php echo base_url('employee/editemployee/'.base64_encode($list['e_id'])); ?>" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
+                                            <a href="<?php echo base_url('employee/employeedelete/'.base64_encode($list['e_id'])); ?>" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
                                         </td>
                                     </tr>
 								<?php }?>
