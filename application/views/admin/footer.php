@@ -197,17 +197,18 @@
 						<div id="modalTab">
 						<div class="tab-content">
 							<div class="tab-pane active " id="about">
-								<img src="<?php echo base_url();?>assets/vendor/img/main-pop.png"  width="140" height="140" border="0" class="img-circle"></a>
+								
 								<center>
-								<p class="text-left text-white"><strong>Want to crack your PG? </strong><br>
+								<h3 class="text-white">Want to crack your PG? </h3>
+								<p class="text-center text-white"><br>
 								We tell you exactly how to do it. Attend our Seminar with demo class of our PSAAKET Medical Coaching Institute. Call us now and register the seat. Free seminar. </p>
 								<br>
 								</center>
 								<h4 class=" text-white">Contact now to register your seat </h4>
 								<h3 class=" text-white py-2">@ </h3>
 								<p class="text-center text-white"><span>9014175660  </span> | <span style="">admin@psaaket.com.</span> | <span >www.psaaket.com  </span>  </p>
-								<p class="text-center  pt-20"><a class="text-white" href="<?php echo base_url('seminars/registration');?>"><span style="border:1px solid #fff;padding:5px 10px">Register Now  </span></a> &nbsp;
-								<a class="text-white" href="<?php echo base_url('contact'); ?>"><span style="border:1px solid #fff;padding:5px 10px">Contact Us  </span></a>  </p>
+								<p class="text-center  pt-20"><a class="text-white btn btn-warning" href="<?php echo base_url('seminars/registration');?>"><span >Register Now  </span></a> &nbsp;
+								<a class="text-white btn btn-success" href="<?php echo base_url('contact'); ?>"><span >Contact Us  </span></a>  </p>
 							</div>
 						</div>
 						</div>
