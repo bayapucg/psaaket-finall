@@ -259,7 +259,7 @@
     
     <!--====== Main js ======-->
     <script src="<?php echo base_url();?>assets/vendor/js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.0/js.cookie.js"></script>
+    <script src="<?php echo base_url();?>assets/vendor/js/js.cookie.js"></script>
     <!--====== js ======-->
 	 <script>
 	 //alert(document.cookie = "name=" + cookievalue);
