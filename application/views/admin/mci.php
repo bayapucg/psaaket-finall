@@ -1,5 +1,8 @@
      <head>
      <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
+	<title>Medical Coaching Institute In Hyderabad </title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="web designing agency, web designing agency in hyderabad, " />
 </head>
     <section id="page-banner" class="pt-10 pb-10 bg_cover" data-overlay="8" style="background-image: url(<?php echo base_url();?>assets/vendor/img/page-banner-1.jpg)">
         <div class="container">
