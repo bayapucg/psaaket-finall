@@ -38,46 +38,27 @@
                                     <tr>
                                         <th>SI.No</th>
                                         <th>Student Name</th>
-                                        <th>Registration ID</th>
-                                        <th>MCIID</th>
-                                        <th>Coordinator Name</th>
-                                        <th>Action</th>
+                                        <th>Email ID</th>
+                                        <th>Mobile NUmber</th>
+                                        <th>Date & Time</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+								<?php if(isset($user_list) && count($user_list)>0){ ?>
+								<?php $cnt=1;foreach($user_list as $lis){ ?>
                                     <tr>
-                                        <td>1</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
-                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
-                                        </td>
+                                        <td><?php echo $cnt; ?></td>
+                                        <td><?php echo isset($lis['u_name'])?$lis['u_name']:''; ?></td>
+                                        <td><?php echo isset($lis['u_email'])?$lis['u_email']:''; ?></td>
+                                        <td><?php echo isset($lis['u_mobile'])?$lis['u_mobile']:''; ?></td>
+                                        <td><?php echo isset($lis['created_at'])?$lis['created_at']:''; ?></td>
+                                        
                                     </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
-                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>xxxxxxx</td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
-                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
-                                        </td>
-                                    </tr>
+								<?php $cnt++;} ?>
+								<?php }else{ ?>
+								<div>No data</div>
+								<?php } ?>
+                                    
                                 </tbody>
                             </table>
                         </div>
