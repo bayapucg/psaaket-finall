@@ -39,25 +39,25 @@
 								<tbody>
 								  <tr>
 									<th>Seminar Name</th>
-									<td>Panel discussion on recent changes of NEET PG. Powered by PSAAKET MCI</td>
+									<td>Student - Management interactive discussion on Concept, Training methodology and Approach of PSAAKET MCI.</td>
 								  </tr>
 								  <tr>
 								  	<th>Seminar Date</th>
-									<td>March-03-2019</td>
+									<td>March-10th-2019</td>
 								  </tr> 
 								  <tr>
 									<th>Seminar venue</th>
-									<td>Tabla kothapet, Dilsukhnagar</td>
+									<td>Will be announced after registration.</td>
 								
 								  </tr> 
 								  <tr>
 									<th>Seminar speakers</th>
-									<td>Dr. Khan, Dr. Iftekar, Dr. Imran and 5 others</td>
+									<td>Institute management, Dr. Khan, Dr. Iftekar and others</td>
 								
 								  </tr> 
 								  <tr>
 									<th>Seminar objectives</th>
-									<td>PG Coaching strategy, Presenting Psaaket MCI </td>
+									<td>Leveraging our Vision & Mission of the Institute. Imparting the new way of education to the student. Demo class of PSAAKET MCI. Interactive session with the students & discussion on cracking the Medical PG Entrance Exam. </td>
 								  </tr>								  <tr>
 									<th>Strength</th>
 									<td> 50-150 </td>
