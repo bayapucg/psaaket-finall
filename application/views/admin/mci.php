@@ -210,11 +210,11 @@
                                     <li><i class="fa fa-users"></i>Per Class Students : <span>50</span></li> 
 									<li><i class="fa fa-users"></i> Students per Mentor : <span>10</span></li>
 									<li><i class="fa fa-clock-o"></i>Duration : <span>6 Months</span></li>
-                                    <li><i class="fa fa-user"></i>Leactures : <span>576 - 840 HRS</span></li>
+                                    <li><i class="fa fa-user"></i>Lectures : <span>576 - 840 HRS</span></li>
                                     <li><i class="fa fa-pencil"></i>Assessments :  <span>50 - 60</span></li> 
 									<li><i class="fa fa-pencil"></i>Test and Discussions :  <span>45</span></li>
                                     <li><i class="fa fa-tasks"></i>Counselling sessions :  <span>45</span></li>  
-									<li><i class="fa fa-users"></i>Guest Leactures sessions :  <span>2</span></li>
+									<li><i class="fa fa-users"></i>Guest Lectures sessions :  <span>2</span></li>
                                 </ul>
                                 <div class="price-button pt-10">
                                    <div class="text-center">

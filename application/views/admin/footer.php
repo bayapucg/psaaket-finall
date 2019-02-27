@@ -189,15 +189,16 @@
 								
 							  
 			<div class="modal-body modal-bg" style="text-align:center; background-image: url('<?php echo base_url();?>assets/vendor/img/pop-back.png');background-repeat: no-repeat;background-size: cover;">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<button type="button" onclick="model_popup();" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
 									</button>
 				<div class="row-fluid">
 					<div class="span10 offset1">
 						<div id="modalTab">
 						<div class="tab-content">
+						<form name="myform">
 							<div class="tab-pane active " id="about">
-								
+								<input type="hidden" name="customer" value="">
 								<center>
 								<h3 class="text-white">Want to crack your PG? </h3>
 								<p class="text-center text-white"><br>
@@ -207,9 +208,10 @@
 								<h4 class=" text-white">Contact now to register your seat </h4>
 								<h3 class=" text-white py-2">@ </h3>
 								<p class="text-center text-white"><span>9014175660  </span> | <span style="">admin@psaaket.com.</span> | <span >www.psaaket.com  </span>  </p>
-								<p class="text-center  pt-20"><a class="text-white btn btn-warning" href="<?php echo base_url('seminars/registration');?>"><span >Register Now  </span></a> &nbsp;
-								<a class="text-white btn btn-success" href="<?php echo base_url('contact'); ?>"><span >Contact Us  </span></a>  </p>
+								<p class="text-center  pt-20"><a class="text-white btn btn-warning" onclick="model_popup();" href="<?php echo base_url('seminars/registration');?>"><span >Register Now  </span></a> &nbsp;
+								<a class="text-white btn btn-success" onclick="model_popup();" href="<?php echo base_url('contact'); ?>"><span >Contact Us  </span></a>  </p>
 							</div>
+							</form>
 						</div>
 						</div>
 					</div>	
@@ -257,12 +259,35 @@
     
     <!--====== Main js ======-->
     <script src="<?php echo base_url();?>assets/vendor/js/main.js"></script>
-    
+    <script src="<?php echo base_url();?>assets/vendor/js/js.cookie.js"></script>
     <!--====== js ======-->
 	 <script>
- $(window).load(function(){        
-   $('#bayapu').modal('show');
-    }); 
+	 //alert(document.cookie = "name=" + cookievalue);
+	  function model_popup() {
+               var expires;
+			   var days=1;
+				if (days) {
+					var date = new Date();
+					date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+					expires = "; expires=" + date.toGMTString();
+				}
+				else {
+					expires = "";
+				}
+				document.cookie = name + "=" + value + expires + "; path=/";
+            }
+ 
+	$(document).ready(function(){
+            setTimeout(function(){
+            if(!Cookies.get('modalShown')) {
+            	$("#bayapu").modal('show');
+              Cookies.set('modalShown', true);
+            } else {
+            	
+            }
+        			
+    },3000);
+ })
  </script>
 
 </body>

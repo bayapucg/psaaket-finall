@@ -39,25 +39,28 @@
 								<tbody>
 								  <tr>
 									<th>Seminar Name</th>
-									<td>Panel discussion on recent changes of NEET PG. Powered by PSAAKET MCI</td>
+									<td>Student - Management interactive discussion on Concept, Training methodology and Approach of PSAAKET MCI.</td>
 								  </tr>
 								  <tr>
 								  	<th>Seminar Date</th>
-									<td>March-03-2019</td>
+									<td>March-10th-2019</td>
 								  </tr> 
 								  <tr>
 									<th>Seminar venue</th>
-									<td>Tabla kothapet, Dilsukhnagar</td>
+									<td>Seminar will be conducted in Hyderabad KPHB colony. Exact venue will be informed only to the registered candidates.</td>
 								
 								  </tr> 
 								  <tr>
 									<th>Seminar speakers</th>
-									<td>Dr. Khan, Dr. Iftekar, Dr. Imran and 5 others</td>
+									<td>Institute management, Dr. Khan, Dr. Iftekar and others</td>
 								
 								  </tr> 
 								  <tr>
 									<th>Seminar objectives</th>
-									<td>PG Coaching strategy, Presenting Psaaket MCI </td>
+									<td>Leveraging our Vision & Mission of the Institute. Imparting the new way of education to the student. Demo class of PSAAKET MCI. Interactive session with the students & discussion on cracking the Medical PG Entrance Exam. </td>
+								  </tr>								  <tr>
+									<th>Strength</th>
+									<td> 50-150 </td>
 								  </tr>
 								</tbody>
 							  </table>
@@ -71,21 +74,21 @@
                             <!--<h2>Keep in touch</h2>-->
                         </div> <!-- section title -->
                         <div class="main-form">
-                            <form id="info-form" action="" method="post">
+                            <form id="info-form" autocomplete="off" action="<?php echo base_url('seminars/registerpost'); ?>" method="post">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="singel-form form-group">
-                                            <input name="name" type="text" placeholder="Your name">
+                                            <input name="uname" id="uname" type="text" placeholder="Your name" required>
                                         </div> <!-- singel form -->
                                     </div>
                                     <div class="col-md-12">
                                         <div class="singel-form form-group">
-                                            <input name="email" type="email" placeholder="Email">
+                                            <input name="uemail" id="uemail" type="email" placeholder="Email" required>
                                         </div> <!-- singel form -->
                                     </div>
                                     <div class="col-md-12">
                                         <div class="singel-form form-group">
-                                            <input name="phone" type="text" placeholder="Phone">
+                                            <input name="uphone" id="uphone" type="text" placeholder="Phone" required>
                                         </div> <!-- singel form -->
                                     </div>
                                     
