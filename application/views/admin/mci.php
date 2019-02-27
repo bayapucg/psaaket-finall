@@ -269,11 +269,11 @@
 									</div>
 									<div class="singel-description pt-40">
 										<h6>Vision:</h6>
-										<p>To Come out as a Transcendent medical institute that aims to work for the universal enhancement of society by enabling the young and bright minds of the country to help them realize their dreams of becoming doctors thereby pushing India into the comity of developed nation.</p>
+										<p>To Come out as a Transcendent medical coaching institute that aims to work for the universal enhancement of society by enabling the young and bright minds of the country to help them realize their dreams of becoming doctors thereby pushing India into the comity of developed nation.</p>
 									</div>
 									<div class="singel-description pt-40 ">
 										<h6>Why us?</h6>
-								<p>PSAAKET MCI, not only trains its students to complete their course with, but also analyses their progress in each and every step of the course so that they can go to the depth of the curriculum which is being taught. Our well experienced training lecturers and mentors will help the students to build the foundation stones of medical coding and billing. Our continuous practice set series will also help the students to rebrush the previous topics which were taught in due course of training period.</p>
+								<p>PSAAKET MCI(Medical Coaching Institute), not only trains its students to complete their course with, but also analyses their progress in each and every step of the course so that they can go to the depth of the curriculum which is being taught. Our well experienced training lecturers and mentors will help the students to build the foundation stones of medical coding and billing. Our continuous practice set series will also help the students to rebrush the previous topics which were taught in due course of training period.</p>
 									</div>
 								</div> <!-- overview description -->
 								
