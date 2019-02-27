@@ -34,8 +34,14 @@ class Seminars extends CI_Controller {
 	
 	public function registerpost(){
 		$post=$this->input->post();
+		$add=array('');
 		echo '<pre>';print_r($post);exit;
 		
+	}
+	public  function userslist(){
+		$this->load->view('admin/header');
+		$this->load->view('admin/seminar-registration-user_list');
+		$this->load->view('admin/footer');
 	}
 }	
 	
