@@ -47,7 +47,7 @@
 								  </tr> 
 								  <tr>
 									<th>Seminar venue</th>
-									<td>Will be announced after registration.</td>
+									<td>Seminar will be conducted in Hyderabad KPHB colony. Exact venue will be informed only to the registered candidates.</td>
 								
 								  </tr> 
 								  <tr>
