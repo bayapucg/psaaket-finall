@@ -44,7 +44,7 @@
 			<div class="mt-20 text-center">
 				<a href="<?php echo base_url('seminars/registration');?>" class="btn btn-warning  text-white">
 					
-					 Seminar Registration
+					 Psaaket MCI Seminar Reg.
 						
 					
 				</a>
