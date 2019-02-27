@@ -28,19 +28,15 @@ class Seminars extends CI_Controller {
 				$this->load->view('admin/footer');
 		        
 	     }else{
-		redirect('home');
+				redirect('home');
+			}
+	}
+	
+	public function registerpost(){
+		$post=$this->input->post();
+		echo '<pre>';print_r($post);exit;
 		
 	}
 }	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}
+
