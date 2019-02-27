@@ -1,5 +1,7 @@
 
-    
+    <head>
+	 <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/css/dataTables.bootstrap.min.css">
+	</head>
     <section id="page-banner" class="pt-10 pb-10 bg_cover" data-overlay="8" style="background-image: url(img/page-banner-6.jpg)">
         <div class="container">
             <div class="row">
@@ -26,87 +28,63 @@
     
     <section id="contact-page" class="pt-10 pb-120 gray-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 ">
-                    <div class="contact-from mt-30">
-                        <div class="section-title">
-                            <h5>Seminar Details</h5>
-                            <!--<h2>Keep in touch</h2>-->
-                        </div> <!-- section title -->
-                        <div class="main-form">
-                            <table class="table table-bordered">
-								
-								<tbody>
-								  <tr>
-									<th>Seminar Name</th>
-									<td>Student - Management interactive discussion on Concept, Training methodology and Approach of PSAAKET MCI.</td>
-								  </tr>
-								  <tr>
-								  	<th>Seminar Date</th>
-									<td>March-10th-2019</td>
-								  </tr> 
-								  <tr>
-									<th>Seminar venue</th>
-									<td>Seminar will be conducted in Hyderabad KPHB colony. Exact venue will be informed only to the registered candidates.</td>
-								
-								  </tr> 
-								  <tr>
-									<th>Seminar speakers</th>
-									<td>Institute management, Dr. Khan, Dr. Iftekar and others</td>
-								
-								  </tr> 
-								  <tr>
-									<th>Seminar objectives</th>
-									<td>Leveraging our Vision & Mission of the Institute. Imparting the new way of education to the student. Demo class of PSAAKET MCI. Interactive session with the students & discussion on cracking the Medical PG Entrance Exam. </td>
-								  </tr>								  <tr>
-									<th>Strength</th>
-									<td> 50-150 </td>
-								  </tr>
-								</tbody>
-							  </table>
-                        </div> <!-- main form -->
-                    </div> <!--  contact from -->
-                </div> 
-				<div class="col-lg-6 ">
-                    <div class="contact-from mt-30">
-                        <div class="section-title">
-                            <h5>Seminar Registration</h5>
-                            <!--<h2>Keep in touch</h2>-->
-                        </div> <!-- section title -->
-                        <div class="main-form">
-                            <form id="info-form" action="<?php echo base_url('seminars/registerpost'); ?>" method="post">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="singel-form form-group">
-                                            <input name="uname" id="uname" type="text" placeholder="Your name" required>
-                                        </div> <!-- singel form -->
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="singel-form form-group">
-                                            <input name="uemail" id="uemail" type="email" placeholder="Email" required>
-                                        </div> <!-- singel form -->
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="singel-form form-group">
-                                            <input name="uphone" id="uphone" type="text" placeholder="Phone" required>
-                                        </div> <!-- singel form -->
-                                    </div>
-                                    
-                                    <div class="col-md-6">
-                                        <div class="singel-form">
-                                            <button type="submit" class="main-btn btn-block">Register Now</button>
-                                        </div> <!-- singel form -->
-                                    </div>   <div class="col-md-6">
-                                        <div class="singel-form">
-                                            <a href="<?php echo base_url('contact'); ?>" type="submit" class="main-btn btn-block">Contact Us</a>
-                                        </div> <!-- singel form -->
-                                    </div> 
-                                </div> <!-- row -->
-                            </form>
-                        </div> <!-- main form -->
-                    </div> <!--  contact from -->
+			<div class="">
+                <div class="box box-primary">
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="table-responsive">
+                            <table id="" class="table table-bordered table-striped" width="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>SI.No</th>
+                                        <th>Student Name</th>
+                                        <th>Registration ID</th>
+                                        <th>MCIID</th>
+                                        <th>Coordinator Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
+                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
+                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>xxxxxxx</td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-xs mb-5"><i class="fa fa-edit mr-5"></i>Edit</a>
+                                            <a href="#" class="btn btn-danger btn-xs mb-5"><i class="fa fa-trash mr-5"></i>Delete</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-               
-            </div> <!-- row -->
+            </div>
         </div> <!-- container -->
     </section>
+	 <!--====== Nice Select js ======-->
+ 
