@@ -74,7 +74,7 @@
                             <!--<h2>Keep in touch</h2>-->
                         </div> <!-- section title -->
                         <div class="main-form">
-                            <form id="info-form" action="<?php echo base_url('seminars/registerpost'); ?>" method="post">
+                            <form id="info-form" autocomplete="off" action="<?php echo base_url('seminars/registerpost'); ?>" method="post">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="singel-form form-group">
