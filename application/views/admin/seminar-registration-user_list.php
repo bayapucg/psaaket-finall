@@ -39,7 +39,7 @@
                                         <th>SI.No</th>
                                         <th>Student Name</th>
                                         <th>Email ID</th>
-                                        <th>Mobile NUmber</th>
+                                        <th>Mobile Number</th>
                                         <th>Date & Time</th>
                                     </tr>
                                 </thead>
